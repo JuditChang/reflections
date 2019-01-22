@@ -1,0 +1,67 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Git helps to quickly and efficiently find differences between two files.
+By using git I don't have to look through each line of code, which would be
+very tiring in case of a long program.
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+If I am able to see the previous version of a file, it can help me: 
+to understand why certain changes were made
+to understand how those changes improved the file
+to understand what kind of attempts were made earlier 
+(so that I won't try certain things again, it saves times and energy)
+to learn from other people's ideas
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pros:
+I can decide what is a logical unit that is worth committing
+I can regulate how many commits are made
+I can avoid unnecessarily commits
+
+Cons:
+it is problematic if I forget about it
+
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows saving multiple files in one commit because the different files
+are dependent on each other, there are connections between them.
+If they weren't saved in one commit, later on, some parts of the program 
+would not work.
+In Google Docs, etc this is not an issue.
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+With git log I can view the commit history of a file. Then, I can arbitrarily choose two versions of the file and check the differences between the two.
+
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Knowing that the changes I make can be tracked down easily provides a great
+environment for experimenting. I wouldn't fear to break things.
+
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I will use Git to handle files of my coding projects on GitHub.
