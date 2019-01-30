@@ -17,13 +17,37 @@ to the repository anymore, I remove the file. Also, I can add more files, if I w
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+I can compare the files in the staging area either to the files in the working directory
+or the files in the repository. This way I can check the exact changes I made
+before committing the file.
+
+
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches are useful, when I want to experiment on the code or add a new feature without modifying the master branch. Later, when the changes in the new branches are finalized, they can be merged into the master branch.
+
+
+
+
 How do the diagrams help you visualize the branch structure?
+
+The diagrams helps to see how branches are related to each other. It helps to understand how to avoid commits which cannot be tracked.
+
+
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging two branches is an updated master branch. The graph represents that the master branch after the merge will include all the commits of the two merged branches.
+
+
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+It is great the git merges files automatically when no conflict is detected. However, it is better to decide on my own in case of a conflict. Git cannot know what the intention of two different changes had been.
