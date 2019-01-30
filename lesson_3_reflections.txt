@@ -15,7 +15,11 @@ Not all changes might be good, therefore only those should be pulled which I rea
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Forking is used on GitHub, when you want to clone someone else's repository.
+Cloning is used when you want to clone a repository from GitHub to your computer, or when you want to clone sg on your computer.
+Branches are used to create new branches from the master branch or other existing branches, so that you can experiment with the code without modifying the master branch or other existing branches.
+
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
